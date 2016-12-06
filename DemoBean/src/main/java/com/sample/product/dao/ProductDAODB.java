@@ -372,12 +372,9 @@ public class ProductDAODB implements ProductDAO {
 				aProduct.setId(rs.getInt("productID"));
 				aProduct.setCategory(rs.getString("category"));
 				aProduct.setDesc(rs.getString("description"));
-				aProduct.setActor(rs.getString("actor"));
-				aProduct.setDirector(rs.getString("director"));
-				aProduct.setCompany(rs.getString("company"));
-				aProduct.setDate(rs.getString("date"));
+				
 				aProduct.setPrice(rs.getInt("price"));
-				aProduct.setSpecial_p_d(rs.getString("special_p_d"));
+	
 				aProduct.setInventory(rs.getInt("inventory"));
 				aProduct.setReorderPoint(rs.getInt("reorderPoint"));
 			}
